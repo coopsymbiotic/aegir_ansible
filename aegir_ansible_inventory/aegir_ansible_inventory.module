@@ -41,7 +41,7 @@ function aegir_ansible_inventory_node_load($nodes, $types)
         if ($node->type != 'server') {
             continue;
         }
-        if (!is_array($node->ansible_vars)) {
+        if (empty($node->ansible_vars) || !is_array($node->ansible_vars)) {
           $node->ansible_vars = array();
         }
         foreach ($node->services as $type => $service) {

@@ -19,7 +19,9 @@ function aegir_ansible_inventory_endpoint() {
 function aegir_ansible_inventory_data() {
     // Build attributes object
     $inventory = new stdClass;
+    $inventory->aegir_servers = new stdClass();
     $inventory->aegir_servers->hosts = array();
+    $inventory->_meta = new stdClass();
     $inventory->_meta->hostvars = new stdClass();
 
     // Get all server nodes.

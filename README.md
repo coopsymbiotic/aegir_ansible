@@ -1,4 +1,12 @@
-# Ansible Dynamic Inventory for Aegir Servers
+# Ansible Dynamic Inventory for Aegir Servers (Symbiotic fork)
+
+This is a fork of Jon's [aegir_ansible](https://www.drupal.org/project/aegir_ansible)
+module for Aegir 3.x. We only use a tiny portion of it and needed PHP8
+support, so the documentation below might not be accurate.
+
+Source: https://github.com/coopsymbiotic/aegir_ansible
+
+## Overview
 
 This toolset allows for tight integration between Ansible & Aegir.
 
