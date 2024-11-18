@@ -2,3 +2,4 @@ name = Aegir Ansible Core
 package = Aegir Ansible
 description = Base module for the other Aegir Ansible modules.
 core = 7.x
+backdrop = 1.x
