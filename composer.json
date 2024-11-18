@@ -1,12 +1,5 @@
 {
-    "require": {
-        "symfony/yaml": "^3.0",
-        "asm/php-ansible": "dev-patch-1"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/jonpugh/php-ansible"
-        }
-    ]
+    "name": "coopsymbiotic/aegir_ansible",
+    "type": "drupal-module",
+    "description": "aegir-ansible module for Aegir"
 }
