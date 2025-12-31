@@ -3,4 +3,3 @@ package = Aegir Ansible
 description = Ansible Dynamic Inventory endpoint for aegir servers.
 core = 7.x
 backdrop = 1.x
-dependencies[] = hosting_server
